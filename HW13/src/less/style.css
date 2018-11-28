@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/bg.jpg);
+  background-image: url(img/bg.jpg);
 }
 
 .conteiner {
@@ -68,7 +68,7 @@ body {
   width: 261px;
   height: 32px;
   padding-left: 10px;
-  background-image: url(/img/bg.jpg);
+  background-image: url(img/bg.jpg);
   outline: none;
   border: 1px solid #cfdede;
   margin-bottom: 14px;
