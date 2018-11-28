@@ -1,0 +1,55 @@
+// out: ../css/style.css, compress: false, sourceMap: true
+
+/* Content colors */
+@btn: #fbb202;
+@icons: #46b914;
+@review: #49bf15;
+@text: #242424;
+@border-form: #dddddd;
+@none: #ff0000;
+@light: #fff;
+
+
+/* Base setings */
+html{
+	font-style: 10px;
+}
+.button{
+color: @light;
+background-color: @btn;
+border-radius: 8px;
+text-transform: uppercase;
+border: none;
+&_header{
+	height: 50px;
+	padding: 1rem 3rem;
+	}
+}
+/* Sections */
+
+section{
+	padding: 10rem 0;
+}
+
+/* Main */
+
+main{
+	margin-top: 3rem;
+	.phone{
+		height: 7rem;
+		a{
+		color: @text;
+		font-family: "Proxima Nova";
+		font-size: 2rem;
+		line-height: 7rem;
+		font-weight: 700;
+		text-decoration: none;
+		}
+	}
+			.right-buttom{
+				height: 7rem;
+				display:flex;
+				align-items: center;
+	
+	}
+}

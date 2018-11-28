@@ -1,0 +1,41 @@
+/* Content colors */
+/* Base setings */
+html {
+  font-style: 10px;
+}
+.button {
+  color: #fff;
+  background-color: #fbb202;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+}
+.button_header {
+  height: 50px;
+  padding: 1rem 3rem;
+}
+/* Sections */
+section {
+  padding: 10rem 0;
+}
+/* Main */
+main {
+  margin-top: 3rem;
+}
+main .phone {
+  height: 7rem;
+}
+main .phone a {
+  color: #242424;
+  font-family: "Proxima Nova";
+  font-size: 2rem;
+  line-height: 7rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+main .right-buttom {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+/*# sourceMappingURL=./main.css.map */
