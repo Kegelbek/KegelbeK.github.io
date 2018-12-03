@@ -1,0 +1,103 @@
+/* Open Sans */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-Regular.eot');
+  src: url('../fonts/Open_Sans/') format('embedded-opentype'),
+    url('../fonts/Open_Sans/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/Open_Sans/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+    url('../fonts/Open_Sans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-Light.eot');
+  src: url('../fonts/Open_Sans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Open_Sans/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/Open_Sans/OpenSans-Light.woff') format('woff'),
+    url('../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/Open_Sans/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* Lobster */
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('..//fonts/Lobster/Lobster-Regular.eot');
+  src: url('..//fonts/Lobster/Lobster-Regular.eot?#iefix') format('embedded-opentype'),
+    url('..//fonts/Lobster/Lobster-Regular.woff2') format('woff2'),
+    url('..//fonts/Lobster/Lobster-Regular.woff') format('woff'),
+    url('..//fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Lato */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Light.eot');
+  src: url('../fonts/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Light.woff2') format('woff2'),
+    url('../fonts/Lato/Lato-Light.woff') format('woff'),
+    url('../fonts/Lato/Lato-Light.ttf') format('truetype'),
+    url('../fonts/Lato/Lato-Light.svg#Lato-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.eot');
+  src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato/Lato-Regular.ttf') format('truetype'),
+    url('../fonts/Lato/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Bebas Neue*/
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('..//fonts/bebas/BebasNeueBold.eot');
+  src: url('..//fonts/bebas/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('..//fonts/bebas/BebasNeueBold.woff2') format('woff2'),
+    url('..//fonts/bebas/BebasNeueBold.woff') format('woff'),
+    url('..//fonts/bebas/BebasNeueBold.ttf') format('truetype'),
+    url('..//fonts/bebas/BebasNeueBold.svg#BebasNeueBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('..//fonts/bebas/BebasNeueRegular.eot');
+  src: url('..//fonts/bebas/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('..//fonts/bebas/BebasNeueRegular.woff2') format('woff2'),
+    url('..//fonts/bebas/BebasNeueRegular.woff') format('woff'),
+    url('..//fonts/bebas/BebasNeueRegular.ttf') format('truetype'),
+    url('..//fonts/bebas/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('..//fonts/bebas/BebasNeueLight.eot');
+  src: url('..//fonts/bebas/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+    url('..//fonts/bebas/BebasNeueLight.woff2') format('woff2'),
+    url('..//fonts/bebas/BebasNeueLight.woff') format('woff'),
+    url('..//fonts/bebas/BebasNeueLight.ttf') format('truetype'),
+    url('..//fonts/bebas/BebasNeueLight.svg#BebasNeueLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
