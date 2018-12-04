@@ -1,0 +1,191 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
+	padding: 15px;
+}
+.image {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+		position: relative;
+}
+
+.image-one::before {
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #000;
+opacity: 0;
+transform: scaleX(0);
+transition: 1s;
+}
+
+.image-one:hover::before {
+	opacity: 0.5	;
+	cursor: pointer;
+	transform: scaleX(1);
+}
+
+.image-two::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+	transform: scale(0, 0);
+	transition: 0.5s;
+}
+
+.image-two:hover::before {
+	opacity: 0.5;
+	cursor: pointer;
+	transform: scale(1, 1);
+}
+
+.image::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+	transition: 1s;
+}
+
+.image:hover::before {
+	opacity: 0.5;
+	cursor: pointer;
+	
+}
+
+/* Картинки переходят плавно из затемнённой в незатемнённую через зелёный цвет */
+/* .image::before {
+	content: '';
+	position: absolute;
+	 transition: 1s ease-in-out;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	z-index: 1;
+
+}
+.image:hover::before {
+	content: '';
+	position: absolute;
+		width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: green;
+	opacity: 0;
+	z-index: 1;
+} */
+
+/* .image:hover::before {
+	content: '';
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background:#000;
+	opacity: 0.5;
+	z-index: 1;
+} */
+/* .image:nth-child(4):hover::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: red;
+	opacity: 0.5;
+	z-index: 1;
+} */
+
+.image-one {
+	background: url(../img/1.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.image-two {
+	background: url(../img/2.jpg) center no-repeat;
+	background-size: cover;
+}
+.image-three {
+	background: url(../img/3.jpg) center no-repeat;
+	background-size: cover;
+}
+.image-four {
+	background: url(../img/4.jpg) center no-repeat;
+	background-size: cover;
+}
+
+
+.button-one {
+	border: none;
+	font-weight: 700;
+	font-size: 14px;
+ color: white;
+ padding: .8em 1em calc(.8em + 3px);
+ border-radius: 3px;
+ background: rgb(64,199,129);
+ box-shadow: 0 -3px rgb(53,167,110) inset;
+ transition: 0.2s;
+ outline: none;
+}
+.button-one:hover{
+	border: none;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 7px;
+	background: rgb(64, 199, 129);
+	box-shadow: 0 -3px rgb(53, 167, 110) inset;
+}
+.button-one:active{
+	background: rgb(50, 158, 102);
+}
+
+
+.button-two {
+	display: inline-block;
+ color: white;
+ margin-top: 10px;
+ padding: .5em 2em;
+ border: none;
+ border-width: 2px 0;
+ border-style: solid none;
+ border-color: #FDBE33 #000 #D77206;
+ border-radius: 6px;
+ background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	outline: none;
+	 transition: 0.5s;
+}
+
+.button-two:hover{
+	border-radius: 55px;
+	
+	
+
+}
