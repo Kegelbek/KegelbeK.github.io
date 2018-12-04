@@ -1,0 +1,219 @@
+// out: ../css/style.css, compress: false, sourceMap: true
+
+/* Content colors */
+@btn: #fbb202;
+@price: #70c849;
+@icons: #46b914;
+@review: #49bf15;
+@text: #242424;
+@border-form: #dddddd;
+@lable-text: #565656;
+@none: #ff0000;
+@light: #fff;
+
+
+/* font-family */
+.bold(){
+	font-family:'ProximaNova_bold', sans-serif;
+	font-weight: bold;
+}
+.reg(){
+	
+		font-family:'ProximaNova_Reg', sans-serif;
+}
+
+/* Base setings */
+html{
+	font-style: 10px;
+}
+body{
+	.reg();
+}
+.button{
+color: @light;
+background-color: @btn;
+border-radius: 8px;
+text-transform: uppercase;
+border: none;
+&:hover{
+	
+	background-color: darken(@btn, 7%);
+}
+&_header{
+	height: 50px;
+	padding: 1rem 3rem;
+	width: 100%;
+	}
+}
+/* Sections */
+
+section{
+	padding: 10rem 0;
+}
+
+
+input, form, a:active	{
+outline: none;
+}
+/* Main */
+
+
+	.phone{
+		height: 7rem;
+		text-align: right;
+		a{
+		.bold();
+		color: @text;
+		font-size: 2rem;
+		line-height: 7rem;
+		text-decoration: none;
+		}
+	}
+			.right-buttom{
+				height: 7rem;
+				display:flex;
+				align-items: center;
+	
+	}
+
+.main{
+	padding-top: 2rem ;
+	background: url(..//img/header_bg.jpg) center center no-repeat;
+	background-size: cover;
+	&-header{
+		.bold;
+		font-size: 4rem;
+		color: @text;
+		text-transform: uppercase;
+		line-height: 5.8rem;
+		padding-top: 9rem;
+	}
+			&-paragraph{
+				font-size: 2.4rem;
+				color: @text;
+				padding: 3rem 0 4rem 0;
+			}
+			span{
+				display: inline-block;
+				.bold();
+				font-size: 1.8rem;
+				text-align: center;
+				color: @light;
+				background-color: @price;
+				 padding: 2rem 3rem;
+				 strong{
+					 font-size: 3rem;
+				 }
+				}
+					 &-triger{
+						 .bold();
+						 font-size: 2.2rem;
+						 text-transform: uppercase;
+						 padding: 4rem 0;
+					 }
+					 &-form{
+						 margin-top: 11.6rem;
+						 margin-bottom: 3rem;
+						padding: 4rem 5rem;
+						background: @light;
+						text-align: center;
+						&-header{
+							font-size: 1.8rem;
+							padding-bottom: 1.5rem;
+						}
+						&-lable{
+						background: @light;
+						color: @lable-text;
+						position: absolute;
+						transform: translateX(-50%) translateY(-50%);
+						padding: 0.5rem;
+						}
+						&-input{
+
+								display: block;
+								width: 100%;
+								padding: 1rem;
+								height: 5.4rem;
+								border-radius: 0.5rem;
+								border: 0.1rem solid @border-form;
+								outline: none;
+								margin-bottom: 2rem;
+						}
+						&-btn{
+							.bold();
+							display: block;
+							width: 100%;
+							padding: 2rem 0rem;
+							color: @light;
+							font-size: 1.6rem;
+							text-transform: uppercase;
+							
+						}&-info{
+							display: block;
+							margin-top: 1.5rem;
+						}
+						
+					}
+					.faq-info{
+						display: inline-block;
+						font-size: 1.2rem;
+						padding-left: 2rem;
+					}
+				}
+							@media (max-width: 1199px){
+							.button_header{
+							width: 100%;
+							padding: 1rem 0;
+							height: 50px;
+}
+}
+@media (max-width: 991px){
+
+.phone{
+	text-align: center;
+}
+.main{
+	background-position: left top;
+	&-content{
+		margin-top: 1rem;
+	text-align: center;
+	h1{
+		margin-top: -2rem;
+	}
+}
+		&-form{
+			// margin-top: -10rem;
+		}
+}
+}
+@media (max-width: 767px){
+	.main{
+		background-position: 0 10rem;
+	&-haeder{
+		padding-top: 1rem;
+	}&-form{
+		margin-top: 0;
+	}
+
+		span{
+		 font-size: 2.5rem;
+    padding: 3rem 4rem;
+		}
+
+	}
+	.logo{
+		display: none;
+
+	}
+	.logo-min{
+		width: 100%;
+		height: 10rem;
+		margin-top: 3rem;
+		background: url(..//img/logo.png) center center no-repeat;
+		background-size: contain;
+	}
+	.phone{
+		text-align: left;
+		
+	}
+}
