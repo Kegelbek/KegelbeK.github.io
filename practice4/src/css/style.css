@@ -185,13 +185,13 @@ a:active {
   width: 2rem;
   height: 2rem;
   border: none;
-  background: url(/src/img/left-arrow.svg) center no-repeat;
+  background: url(img/left-arrow.svg) center no-repeat;
   outline: none;
   background-size: 70%;
   transform: translateY(-50%);
 }
 .prev:active {
-  background: url(/src/img/left-arrow-hower.svg) center no-repeat;
+  background: url(img/left-arrow-hower.svg) center no-repeat;
 }
 .next {
   position: absolute;
@@ -201,13 +201,13 @@ a:active {
   width: 2rem;
   height: 2rem;
   border: none;
-  background: url(/src/img/right-arrow-button.svg) center no-repeat;
+  background: url(img/right-arrow-button.svg) center no-repeat;
   outline: none;
   background-size: 70%;
   transform: translateY(-50%);
 }
 .next:active {
-  background: url(/src/img/right-arrow-hower.svg) center no-repeat;
+  background: url(img/right-arrow-hower.svg) center no-repeat;
 }
 @media (max-width: 1199px) {
   .button_header {
